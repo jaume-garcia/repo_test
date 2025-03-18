@@ -5,4 +5,4 @@ class DB:
         self.studies = studies
 
     def __str__(self):
-        return "Name:{}; Address:{}".format(self.name, self.addres)
+        return "Name:{}; Address:{}".format(self.name, self.address)
